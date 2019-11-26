@@ -57,3 +57,13 @@ a:hover {
     transform: translateX(2px);
   }
 }
+
+.italic,
+.italic:hover {
+  color: inherit;
+  font-style: italic;
+}
+
+.italic:hover {
+  color: $dark-blue-text;
+}
