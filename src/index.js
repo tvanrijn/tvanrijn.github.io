@@ -47,7 +47,7 @@ var tags = [
     tag: "Bootstrap",
     count: 8
   }, {
-    tag: "Material UI",
+    tag: "MaterialUI",
     count: 9
   }, {
     tag: "Selenium Webdriver",
