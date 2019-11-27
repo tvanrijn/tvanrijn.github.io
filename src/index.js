@@ -79,6 +79,9 @@ var tags = [
   }, {
     tag: "SQL",
     count: 12
+  }, {
+    tag: "JQuery",
+    count: 12
   }
 ];
 
