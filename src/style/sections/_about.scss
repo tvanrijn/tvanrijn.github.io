@@ -78,4 +78,25 @@
       }
     }
   }
+
+  .arrow {
+    position: absolute;
+    left: 36%;
+    bottom: -13%;
+
+    @include respond(phone) {
+      left: 20%;
+      bottom: -18%;
+    }
+
+    @include respond(tab-land) {
+      left: 30%;
+      bottom: -10%;
+    }
+
+    @include respond(tab-port) {
+      left: 20%;
+      bottom: -13%;
+    }
+  }
 }
