@@ -69,20 +69,44 @@ var tags = [
     count: 6
   }, {
     tag: "ISTQB",
-    count: 5
+    count: 6
   }, {
     tag: "C#",
     count: 14
   }, {
     tag: "PHP",
-    count: 5
+    count: 6
   }, {
     tag: "SQL",
     count: 12
   }, {
     tag: "JQuery",
     count: 12
-  }
+  }, 
+  {
+    tag: "Styled Components",
+    count: 10
+  },
+  {
+    tag: "React Hooks",
+    count: 10
+  },
+  {
+    tag: "ContextApi",
+    count: 7
+  },
+  {
+    tag: "GraphQL",
+    count: 8
+  },
+  {
+    tag: "Stripe",
+    count: 9
+  },
+  {
+    tag: "Firebase",
+    count: 7
+  },
 ];
 
 $("#tagcloud").tagCloud(tags);
